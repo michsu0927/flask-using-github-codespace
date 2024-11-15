@@ -4,5 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return render_template("index.html", title="Hello")
+    t = "Hi github"
+    return render_template("index.html", title=t)
 #could
